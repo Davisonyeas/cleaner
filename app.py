@@ -27,6 +27,29 @@ from textblob import TextBlob
 
 from wordcloud import WordCloud
 
+im = Image.open("stock.png")
+st.set_page_config(
+    page_title="Stock Price Prediction by Davis",
+    page_icon=im,
+    
+)
+
+hide_menu = """
+<style>
+    #MainMenu{
+        visibility: hidden;    
+    }
+    footer {
+        visibility: hidden;
+    }
+
+</style>
+"""
+
+st.markdown(hide_menu, unsafe_allow_html=True)
+
+st.markdown(hide_menu, unsafe_allow_html=True)
+
 # Analysis
 
 def plot_wordcloud(my_text):
@@ -129,8 +152,7 @@ def main():
         extract_emails = st.sidebar.checkbox("Extract all Emails")
         extract_urls = st.sidebar.checkbox("Extract URLS")
         extract_usernames = st.sidebar.checkbox("Extract Usernames")
-        
-
+    
         if text_file is not None:
             file_details = {"Filename": text_file.name, "Filesize": text_file.size, "Filetype": text_file.type}
             st.write(file_details)
