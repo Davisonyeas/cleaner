@@ -1,0 +1,11 @@
+better_profanity==0.7.0
+en_core_web_sm==3.0.0
+matplotlib==3.5.2
+neattext==0.1.3
+pandas==1.4.3
+Pillow==9.2.0
+seaborn==0.11.2
+spacy==3.0.8
+streamlit==1.12.2
+textblob==0.17.1
+wordcloud==1.8.2.2
