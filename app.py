@@ -27,9 +27,9 @@ from textblob import TextBlob
 
 from wordcloud import WordCloud
 
-im = Image.open("stock.png")
+im = Image.open("assets/cleaner.png")
 st.set_page_config(
-    page_title="Stock Price Prediction by Davis",
+    page_title="Text Cleaner Web App",
     page_icon=im,
     
 )
@@ -262,8 +262,8 @@ def main():
 
 
         # --- GENERAL SETTINGS ---
-        PAGE_TITLE = "Davis Digital CV"
-        PAGE_ICON = ":wave:"
+        # PAGE_TITLE = "Davis Digital CV"
+        # PAGE_ICON = ":wave:"
         NAME = "Davis Onyeoguzoro"
         DESCRIPTION = """
         Data Analyst. A result-oriented professional with strong analytical skills that helps organizations make data-driven decisions.
