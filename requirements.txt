@@ -1,5 +1,6 @@
 better_profanity==0.7.0
-en_core_web_sm==3.0.0
+spacy>=3.0.0,<4.0.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 matplotlib==3.5.2
 neattext==0.1.3
 pandas==1.4.3
