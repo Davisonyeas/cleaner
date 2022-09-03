@@ -270,7 +270,7 @@ def main():
         """
         EMAIL = "davisonyeas1@gmail.com"
         SOCIAL_MEDIA = {
-            "Portfolio Website": "https://davisonye@github.io",
+            "Portfolio Website": "https://davisonyeas.github.io/portfolio/",
             "LinkedIn": "https://www.linkedin.com/in/davis-onyeoguzoro/",
             "GitHub": "https://github.com/Davisonyeas",
             "Twitter": "https://twitter.com/Davisonyeas1",
